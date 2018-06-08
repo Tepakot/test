@@ -16,15 +16,24 @@
 	<style>
 	body {
 		background-color: gray;
-	}</style>
+	}
+	.container {
+		background-colod: pink;
+		padding: 50px;
+		width: 100%;
+		height: 100%;
+	}
+	</style>
 	
 </head>
 <body>
-<video id="video" playsinline autobuffer autoplay muted height="100%" width="100%">
-	<source src="BigBuck.m4v">
-	<source src="BigBuck.webm" type="video/webm">
-	<source src="BigBuck.theora.ogv" type="video/ogg">
-	<source src="Opening_video_final_compress.mp4" type="video/mp4">
-</video>
+<div class="container">
+	<video id="video" controls playsinline autobuffer autoplay muted width="100%">
+		<source src="BigBuck.m4v">
+		<source src="BigBuck.webm" type="video/webm">
+		<source src="BigBuck.theora.ogv" type="video/ogg">
+		<source src="Opening_video_final_compress.mp4" type="video/mp4">
+	</video>
+<div>
 </body>
 </html>
